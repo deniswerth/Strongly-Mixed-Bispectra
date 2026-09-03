@@ -97,7 +97,7 @@ For all three, see `FastShapes.ipynb` for the exact cell-by-cell workflow, inclu
 
 ## Reproducing the public data release
 
-The paper's full-shape Planck analysis uses a pre-computed grid: `50×50` in `(ρ/H, μ_eff)`, with the full shape evaluated on a `100×100` triangle grid at every point, for all 5 interactions. To regenerate it:
+The paper's full-shape Planck analysis uses a pre-computed grid: `50×50` in `(ρ/H, μ_eff)`, with the full shape evaluated on a `30×30` triangle grid at every point, for all 5 interactions. To regenerate it:
 
 ```bash
 python generate_planck_grids.py --n_jobs -1
