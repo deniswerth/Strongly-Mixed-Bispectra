@@ -1,3 +1,7 @@
+[![Python](https://img.shields.io/badge/python-3.8.2-blue.svg)](https://python.org)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://choosealicense.com/licenses/mit/)
+[![ArXiv](https://img.shields.io/badge/arXiv-2302...-yellowgreen.svg)](https://google.com)
+
 # Strongly-mixed bispectra in the π-σ model
 
 Code accompanying *"Full-shape constraints of strongly-mixed bispectra with Planck data"* (Philcox, Pinol, Roest & Werth, in prep.) [[arXiv:XXXX.XXXXX]](https://arxiv.org/abs/XXXX.XXXXX).
@@ -117,7 +121,3 @@ python read_planck_grids.py shapes_50x50_pidot3.npz --mu_eff 3.0 --rho_over_H 3.
 
 or from Python, via `read_planck_grids.load`, `plot_cosine_map`, `plot_full_shape` (see that file's docstring).
 
-
-## License
-
-\[MIT / BSD-3 / your choice — not yet specified\]
